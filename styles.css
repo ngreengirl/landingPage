@@ -1,0 +1,98 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+
+}
+
+.logoAndLinks {
+    display: flex;
+    background-color: #A9CBB7;
+    justify-content: space-between;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-around;
+    background-color: #A9CBB7;
+}
+
+.TopTitle {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.subtext {
+    padding: 20px;
+    max-width: 400px;
+}
+
+.signup {
+    color: whitesmoke;
+    background-color: #7C77B9;
+    border-radius: 5px;
+    border-color: #7C77B9;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    background-color: #DBD5FF;
+    text-align: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.Subtitle {
+   display: flex;
+   justify-content: center;
+   padding: 40px;
+   font-size: 36px;
+   background-color: #DBD5FF;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    background-color: #7C77B9;
+    padding: 100px;
+    color: #313638;
+}
+
+.sectionThree {
+    display: flex;
+    justify-content: space-around;
+    background-color: #A9CBB7;
+    padding: 40px;
+    margin: 60px;
+    border-radius: 15px;
+}
+
+.sectionThreeWords {
+    display: flex;
+    flex-direction: column;
+    color: #7C77B9;
+    font-size:large;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #5A53A2;
+}
+
+.footer {
+    text-align: center;
+}
